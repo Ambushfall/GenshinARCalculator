@@ -1,4 +1,4 @@
 # GenshinARCalculator
 
-# Pretty Self Explanatory
+# Usage
 Input and submit
