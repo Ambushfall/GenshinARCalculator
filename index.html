@@ -7,35 +7,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AR Calculator</title>
     <script defer="true" src="index.js"></script>
-    <style>body{padding:0; margin:0; background:black;} </style>
+    <link rel="stylesheet" href="globals.css">
 </head>
 
 <body>
 
-    <p1>Genshin AR Calculator </p1>
+    <div class="container">
+        <p1>Genshin AR Calculator </p1>
 
-    </br>
-    <Input name="myArExp" id="myArExp" class="form-control" placeholder="My AR EXP" type="text" autofocus>
-    </br>
-    <label for="currAr">Select Current AR:</label>
-    <select title="currAr" name="currAr" id="currAr"></select>
-    </br>
-    <label for="wantedAR">Select Wanted AR:</label>
-    <select title="AR" name="wantedAR" id="wantedAR"></select>
-    </br>
-    <label for="resinRefresh">Refreshed Resin Count:</label>
-    <select title="AR" name="resinRefresh" id="resinRefresh"></select>
-    </br>
-    </br>
-    <button id="Submit" type="submit">Submit</button>
+        </br>
+        <Input name="myArExp" id="myArExp" class="form-control" placeholder="My AR EXP" type="text" autofocus>
+        </br>
+        <label for="currAr">Select Current AR:</label>
+        <select title="currAr" name="currAr" id="currAr"></select>
+        </br>
+        <label for="wantedAR">Select Wanted AR:</label>
+        <select title="AR" name="wantedAR" id="wantedAR"></select>
+        </br>
+        <label for="resinRefresh">Refreshed Resin Count:</label>
+        <select title="AR" name="resinRefresh" id="resinRefresh"></select>
+        </br>
+        </br>
+        <button id="Submit" type="submit">Submit</button>
 
 
-    </br>
-    </br>
-    </br>
+        </br>
+        </br>
+        </br>
 
-    <div id="totalExp"></div>
-    <div id="estDays"></div>
+        <div id="totalExp"></div>
+        <div id="estDays"></div>
+    </div>
 </body>
 
 </html>
